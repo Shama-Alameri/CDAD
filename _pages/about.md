@@ -2,7 +2,13 @@
 permalink: /about/
 title: "About"
 ---
+I know you thought that this page would be filled with hella information about me, but remember kids this is the internet :)).
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+However, I'll leave some very general fun facts about me, just for the fun of it. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+1) My name is Shama, (I figure you guessed this by now...)
+2) I lovveee learning new things, a new way to edit my photographs even though it'll take 10 tens than my usual pace? Count me in!
+3) I love chocolate (a bit too much)
+4) I never say no to stickers
+
+Thats enough -_-
