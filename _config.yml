@@ -128,7 +128,7 @@ Responses_archive:
   type: liquid
   path: /responses/
 
-collections:
-  assignments:
-    output: true     # make each item render as a standalone page
-    permalink: /assignments/:title/
+# collections:
+#   assignments:
+#     output: true     # make each item render as a standalone page
+#     permalink: /assignments/:title/
