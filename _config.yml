@@ -116,17 +116,12 @@ defaults:
       related: true
 
 Assignments_archive:
-  type: liquid
-  path: /assignments/
 Category_archive:
   type: liquid
   path: /categories/
 Tag_archive:
   type: liquid
   path: /tags/
-Responses_archive:
-  type: liquid
-  path: /responses/
 
 # collections:
 #   assignments:
