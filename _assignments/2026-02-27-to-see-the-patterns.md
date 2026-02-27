@@ -10,17 +10,24 @@ tags:
   - RMarkdown
 ---
 In my twenty years of living, I have never read a book that falls into the category of Post-Colonial South Asian literature. The question of how (or whether) I could ever read all of PCSA literature was humorously answered by Emily Temple in her blog “How Many Books Will You Read Before You Die?”: “You won’t.”.  For that reason, working with such a corpus presented a valuable opportunity to analyze texts I would not otherwise encounter through the method of distant reading.
+
 To ensure we are on the same page, distant reading can be defined, as explained by Ama Bemma Adwetewa-Badu during her discussion with Kim Adams and Saronik Bosu on the podcast High Theory, as the development of critical insight by aggregating a large body of texts rather than relying solely on close reading of a limited canon. This method enables large-scale examinations of literary history by identifying patterns, themes, and structures that may not be visible through traditional reading alone.
+
 In simpler terms, distant reading involves using computational tools to analyze large collections of literary works. Because reading the entirety of Post-Colonial South Asian literature would take years, and not to mention beginning comparative analysis of the text itself , this approach allows for a broader perspective within a manageable scope.
 For this project, I selected five texts from the larger corpus that illuminate how post-colonial society and colonial power relations are represented. Three of these works were written by British authors, representing the perspective of imperial power, while two were written by South Asian authors, representing those positioned as the colonized “other.” This contrast provides a framework for examining how authority, identity, and resistance are constructed across different viewpoints.
+
 Before applying distant reading tools such as **Voyant** and **RMarkdown**, it was necessary to conduct background research on the authors and historical contexts of these works. This broader perspective helps clarify what patterns to look for in the analysis and how each text reflects the cultural and political tensions of its time. I collected multiple links from Wikipedia and Britannica and runned it through ChatGPT to create a brief bulletpoint of each Author and their work as mentioned below:
+
 **Power (British authors)**:
-In Times of Peril: A Tale of India by G. A. Henty — Published in 1881, this centers on the Indian Rebellion of 1857. Following Henty's usual formula, it places young British characters amid violence and siege warfare, exemplifying Victorian imperialist literature meant to inspire patriotism and courage in British youth.
-The Sepoy by Edmund Candler — Published in 1919, this draws on Candler's firsthand experiences as a World War I correspondent. It examines the Indian soldiers who fought for the British Empire, portraying the complex — often paternalistic yet admiring — relationship between British observers and the Indian Army.
-The Man Who Would Be King by Rudyard Kipling — Published in 1888, this short story follows two rogue ex-soldiers who travel to remote Kafiristan to rule as self-made kings. A tragicomic exploration of imperial ambition, arrogance, and its ultimate fragility.
+- **In Times of Peril: A Tale of India by G. A. Henty**.  Published in 1881, this centers on the Indian Rebellion of 1857. Following Henty's usual formula, it places young British characters amid violence and siege warfare, exemplifying Victorian imperialist literature meant to inspire patriotism and courage in British youth.
+
+- **The Sepoy by Edmund Candler — Published in 1919**.  this draws on Candler's firsthand experiences as a World War I correspondent. It examines the Indian soldiers who fought for the British Empire, portraying the complex — often paternalistic yet admiring — relationship between British observers and the Indian Army.
+
+- **The Man Who Would Be King by Rudyard Kipling**. Published in 1888, this short story follows two rogue ex-soldiers who travel to remote Kafiristan to rule as self-made kings. A tragicomic exploration of imperial ambition, arrogance, and its ultimate fragility.
+
 **Other (South Asian authors)**:
-Anandamath by Bankim Chandra Chatterji — First published in 1882, this landmark of Indian literature is set during the Bengal Famine of 1770 and the Sannyasi Rebellion. It popularized the image of Mother India as a goddess and includes "Vande Mataram," which later became a rallying cry for the independence movement. (COOL!)
-The Home and the World by Rabindranath Tagore — Published in 1916, this novel is set during the Swadeshi movement. Through a love triangle, Tagore explores the dangers of fanatic nationalism and the tension between Western modernity and Indian tradition.
+-**Anandamath by Bankim Chandra Chatterji**.  First published in 1882, this landmark of Indian literature is set during the Bengal Famine of 1770 and the Sannyasi Rebellion. It popularized the image of Mother India as a goddess and includes "Vande Mataram," which later became a rallying cry for the independence movement. (COOL!)
 
-By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands. oo
+-**The Home and the World by Rabindranath Tagore**.  Published in 1916, this novel is set during the Swadeshi movement. Through a love triangle, Tagore explores the dangers of fanatic nationalism and the tension between Western modernity and Indian tradition.
 
+By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands. op
