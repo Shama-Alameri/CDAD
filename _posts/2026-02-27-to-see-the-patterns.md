@@ -31,8 +31,9 @@ Before applying distant reading tools such as **Voyant** and **RMarkdown**, it w
 - **The Home and the World by Rabindranath Tagore**.  Published in 1916, this novel is set during the Swadeshi movement. Through a love triangle, Tagore explores the dangers of fanatic nationalism and the tension between Western modernity and Indian tradition.
 
 <figure>
-  <img src="/assets/images/HUGE.jpg" alt="A Large Wordcloud of selected text">
-  <figcaption>Figure 1: A Large Wordcloud of selected text</figcaption>
+  <img src="{{ '/assets/images/HUGE.jpg' | relative_url }}"
+       alt="A Large Wordcloud of selected text">
+  <figcaption>Figure 1…</figcaption>
 </figure>
 
 By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands.
@@ -40,14 +41,15 @@ By having this bird-eye view it helps set up what type of analysis we look for w
 I simmered down the huge word cloud into a more compact one that contains common terms throughout all the texts to help ease the analysis for me.
 
 <figure>
-  <img src="assets/images/COMBINE.jpg" alt="Compact form of Previous Wordcloud">
-  <figcaption>Figure 1: Compact form of Previous Wordcloud</figcaption>
+  <img src="{{ '/assets/images/COMBINE.jpg' | relative_url }}"
+       alt="Compact word‑cloud">
+  <figcaption>Figure 2…</figcaption>
 </figure>
 
 **{Freedom}**
 
 The first set of words that caught my attention were words directly related to the nation itself, such as 'India', 'British', and 'English'. The prominence of these words suggested that the idea of the nation was central across the texts. Seeing this made me think about what people usually associate most strongly with their nation, and the first idea that came to mind was 'freedom'. Because of this, I decided to examine how often the word 'freedom' appeared in each text. The results were surprising: there was a clear increase in the use of this word among the South Asian authors, while the English authors barely used it, and in some cases did not use it at all. This suggests that the idea of freedom was much more central to the writings of South Asian authors, reflecting their stronger engagement with questions of independence and political identity.
-<iframe style='width: 1512px; height: 801px;' src='https://voyant-tools.org/tool/Trends/?view=Trends&stopList=keywords-91ef7e8d3b66f7fdbf704b7b05e518bc&query=mother*&query=india&query=english*&query=freedom*&mode=&corpus=d9af0425a000bf182d908f4a6ecd5b17'></iframe>
+<iframe style='width: 757px; height: 438px;' src='https://voyant-tools.org/tool/Trends/?view=Trends&stopList=keywords-91ef7e8d3b66f7fdbf704b7b05e518bc&query=mother*&query=india&query=english*&query=freedom*&mode=&corpus=d9af0425a000bf182d908f4a6ecd5b17'></iframe>
 
 Another term that initially surprised me was 'mother'. At first, I assumed it was being used in a literal sense, referring to family or personal relationships. However, after looking more closely, especially alongside the search for 'freedom', I noticed that 'mother' often appeared together with words such as 'India', 'Hail', and 'Victory'. 
 
@@ -58,6 +60,7 @@ This pattern suggests that 'mother' was frequently used to describe India itself
 This almost opposite pattern reveals a clear difference in how India was conceptualized by each group of authors. For the South Asian writers, India appears to be represented in a more emotional and symbolic way, especially through the language of freedom and the image of a mother. The English authors, in contrast, tend to describe India in a more neutral and geographical manner, treating it primarily as a place rather than a symbolic homeland. This contrast highlights how the same nation could be understood and represented in fundamentally different ways depending on the perspective of the writer.
 
 **{Leadership and Authority}**
+
 I also wanted to test out a color coded (by the text) wordcloud from RMarkdown to see if there were any other patterns I could encounter.
 
 ![alt text](../assets/images/CODED.jpg)
@@ -76,6 +79,7 @@ This pattern connects to what was already seen in the analysis of freedom and na
 <iframe style='width: 757px; height: 438px;' src='https://voyant-tools.org/tool/Bubblelines/?query=army&query=war*&query=war&query=freedom*&query=mother*&docId=7f859a22f0d843d66971a9b3203dd59f&docId=0ddf4a2827bd67d65ac94ba141363614&docId=95b1043ba90fee9c7f5b729a75ccf096&docId=b445e31a2dee4af8b90b0574d95c9578&docId=9a4ffeec107d1a278d99230e7ebbb794&corpus=7cab4bde4fed17e6a9f959e21e034311'></iframe>
 
 **{Final Thoughts:}**
+
 Distant reading revealed patterns impossible to detect through traditional reading alone. Across five texts, we viewed how British authors emphasized military conflict, strategy, and imperial authority, portraying India as a stage for adventure and control, just like how a colonial would think of any land. While  South Asian authors focused on freedom, identity, and emotional symbolism, portraying India as a living, sacred entity embodied in “Mother India.”
 
 These contrasting patterns that helped come to life with clear visualization show how perspective shapes narrative. The same historical moments are seen as battles and control (Power) or struggles for selfhood and yearning for cultural survival (Other). 
