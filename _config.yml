@@ -24,12 +24,6 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 
-# custom collections
-collections:
-  assignments:
-    output: true
-    permalink: /assignments/:title/
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -84,7 +78,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: "Assignments"
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -109,6 +103,17 @@ defaults:
       read_time: true
       comments: true
       share: true
+  - scope:
+      path: "_assignments"
+      type: assignments
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 Assignments_archive:
   type: liquid
   path: /assignments/
@@ -126,15 +131,3 @@ collections:
   assignments:
     output: true     # make each item render as a standalone page
     permalink: /assignments/:title/
-
-defaults:
-  - scope:
-      path: "_assignments"
-      type: assignments
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
