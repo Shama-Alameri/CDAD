@@ -45,4 +45,6 @@ I simmered down the huge word cloud into a more compact one that contains common
 </figure>
 
 this is for e
-![Figure 1: A Large Wordcloud of selected text](../assets/images/CODED.jpg)
+{% figure src="/assets/images/HUGE.jpg"
+          caption="Figure 1: Large word cloud" %}
+jjj    
