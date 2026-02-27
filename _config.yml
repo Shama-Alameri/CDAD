@@ -77,7 +77,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "Assignments"
       type: posts
     values:
       layout: single
@@ -93,7 +93,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+  - scope:
+      path: "Responses"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
 category_archive:
   type: liquid
   path: /categories/
