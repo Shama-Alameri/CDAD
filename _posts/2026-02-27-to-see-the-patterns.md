@@ -40,8 +40,9 @@ By having this bird-eye view it helps set up what type of analysis we look for w
 I simmered down the huge word cloud into a more compact one that contains common terms throughout all the texts to help ease the analysis for me.
 
 <figure>
-  <img src="/assets/images/COMBINE.jpg" alt="Compact form of Previous Wordcloud">
+  <img src="assets/images/COMBINE.jpg" alt="Compact form of Previous Wordcloud">
   <figcaption>Figure 1: Compact form of Previous Wordcloud</figcaption>
 </figure>
 
 this is for e
+![Figure 1: A Large Wordcloud of selected text](../assets/images/CODED.jpg)
