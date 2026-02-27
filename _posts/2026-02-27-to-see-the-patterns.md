@@ -33,7 +33,7 @@ Before applying distant reading tools such as **Voyant** and **RMarkdown**, it w
 <figure>
   <img src="{{ '/assets/images/HUGE.jpg' | relative_url }}"
        alt="A Large Wordcloud of selected text">
-  <figcaption>**Figure 1**: Large-scale word cloud representing the selected text</figcaption>
+  <figcaption>Figure 1: Large-scale word cloud representing the selected text</figcaption>
 </figure>
 
 By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands.
@@ -43,7 +43,7 @@ I simmered down the huge word cloud into a more compact one that contains common
 <figure>
   <img src="{{ '/assets/images/COMBINE.jpg' | relative_url }}"
        alt="Compact word‑cloud">
-  <figcaption>**Figure 2**: Compact word cloud</figcaption>
+  <figcaption>Figure 2: Compact word cloud</figcaption>
 </figure>
 
 **{Freedom}**
@@ -56,7 +56,7 @@ Another term that initially surprised me was 'mother'. At first, I assumed it wa
 <figure>
   <img src="{{ '/assets/images/MOTHER.jpg' | relative_url }}"
        alt="MOTHEY">
-  <figcaption>**Figure 3**: Correlation chart for the word “mother.”</figcaption>
+  <figcaption>Figure 3: Correlation chart for the word “mother.”</figcaption>
 </figure>
 
 This pattern suggests that 'mother' was frequently used to describe India itself, reflecting the idea of “Mother India” rather than a biological mother. This interpretation is also supported by the overall trends: South Asian authors collectively used the word 'mother' even more frequently than the word 'India', while the English authors showed the opposite pattern and used 'India' far more often than 'mother'.
@@ -70,7 +70,7 @@ I also wanted to test out a color coded (by the text) wordcloud from RMarkdown t
 <figure>
   <img src="{{ '/assets/images/CODED.jpg' | relative_url }}"
        alt="Coded word‑cloud">
-  <figcaption>**Figure 4**: Color-coded word cloud of the selected text.</figcaption>
+  <figcaption>Figure 4: Color-coded word cloud of the selected text.</figcaption>
 </figure>
 
 Thanks to the color grouping of the cloud. A new set of words that stood out to me were words related to war and violence, such as war, battle, enemy, soldier, attack, kill, fight, and army. Because several of these texts take place during periods of conflict, I wanted to see how often military language appeared in each work. Using RMarkdown, I created a heatmap that shows the frequency of these words across the five texts.
@@ -78,7 +78,7 @@ Thanks to the color grouping of the cloud. A new set of words that stood out to 
 <figure>
   <img src="{{ '/assets/images/HEATMAP.jpg' | relative_url }}"
        alt="Compact word‑cloud">
-  <figcaption>**Figure 5**: Heatmap of words related to War themes</figcaption>
+  <figcaption>Figure 5: Heatmap of words related to War themes</figcaption>
 </figure>
 The first thing that stood out was how much more frequently these words appeared in the British texts compared to the South Asian texts. In Times of Peril had especially high counts for words such as enemy, attack, and army, making it the most focused on direct fighting and combat. The Sepoy also showed consistently high numbers across many of the war-related words, including war, battle, and soldier. Seeing this pattern suggested that war and military action were central themes in the British narratives.
 
@@ -101,3 +101,41 @@ But it's worth being honest about the limitations of this approach, Underwood in
 Perhaps most importantly, distant reading here worked best not as a replacement for close reading, but as a complement to it. The word 'mother' appearing at high frequency was meaningless on its own at the start with the huge word cloud. It only became significant when I read it alongside 'India', 'Hail', and 'Victory'. and remembered the mention of ‘Vande Mataram’ which led me to search for the poem later on, in which I understood the significant cultural significance it has on India . The pattern opened the question; the reading answered it.
 
 In the end, even if distant reading is a powerful tool for acquiring knowledge of texts at scale, it thrives in combination with the traditional ways.  Curiosity, historical context, and the willingness to actually sit with the words on the page.
+
+## References
+
+### Distant Reading & Literary Theory
+
+- Underwood. *Distant Horizon*.
+- [Distant Reading](https://newbooksnetwork.com/distant-reading) - New Books Network
+- [How Many Books Will You Read Before You Die?](https://lithub.com/how-many-books-will-you-read-before-you-die/) - Emily Temple, LitHub
+
+### Authors & Works
+
+**Rudyard Kipling**
+- [Wikipedia: Rudyard Kipling](https://en.wikipedia.org/wiki/Rudyard_Kipling)
+- [Wikipedia: The Man Who Would Be King](https://en.wikipedia.org/wiki/The_Man_Who_Would_Be_King)
+- [Britannica: The Man Who Would Be King](https://www.britannica.com/)
+
+**G. A. Henty**
+- [Wikipedia: G. A. Henty](https://en.wikipedia.org/wiki/G._A._Henty)
+- [Wikipedia: Indian Rebellion of 1857](https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857)
+
+**Edmund Candler**
+- [Wikipedia: Edmund Candler](https://en.wikipedia.org/wiki/Edmund_Candler)
+
+**Rabindranath Tagore**
+- [Wikipedia: Rabindranath Tagore](https://en.wikipedia.org/wiki/Rabindranath_Tagore)
+- [Britannica: Rabindranath Tagore](https://www.britannica.com/)
+- [Wikipedia: The Home and the World](https://en.wikipedia.org/wiki/The_Home_and_the_World)
+
+**Bankim Chandra Chatterjee**
+- [Wikipedia: Bankim Chandra Chatterjee](https://en.wikipedia.org/wiki/Bankim_Chandra_Chatterjee)
+- [Britannica: Bankim Chandra Chatterjee](https://www.britannica.com/)
+- [Wikipedia: Anandamath](https://en.wikipedia.org/wiki/Anandamath)
+
+### Tools & Resources
+
+- [Voyant Tools](https://voyant-tools.org/)
+- [RMarkdown Documentation](https://rmarkdown.rstudio.com/)
+- [NYU Abu Dhabi Library](https://search.abudhabi.library.nyu.edu/discovery/fulldisplay?context=L&vid=01NYU_AD:AD&search_scope=CI_NYUAD_NYU&tab=default_slot&docid=alma990074332960107871)
