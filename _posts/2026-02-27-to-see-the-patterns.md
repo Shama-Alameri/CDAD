@@ -33,7 +33,7 @@ Before applying distant reading tools such as **Voyant** and **RMarkdown**, it w
 <figure>
   <img src="{{ '/assets/images/HUGE.jpg' | relative_url }}"
        alt="A Large Wordcloud of selected text">
-  <figcaption>Figure 1…</figcaption>
+  <figcaption>Figure 1: A Large Wordcloud of selected text</figcaption>
 </figure>
 
 By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands.
@@ -43,7 +43,7 @@ I simmered down the huge word cloud into a more compact one that contains common
 <figure>
   <img src="{{ '/assets/images/COMBINE.jpg' | relative_url }}"
        alt="Compact word‑cloud">
-  <figcaption>Figure 2…</figcaption>
+  <figcaption>Figure 2: Compact wordcloud</figcaption>
 </figure>
 
 **{Freedom}**
@@ -51,9 +51,13 @@ I simmered down the huge word cloud into a more compact one that contains common
 The first set of words that caught my attention were words directly related to the nation itself, such as 'India', 'British', and 'English'. The prominence of these words suggested that the idea of the nation was central across the texts. Seeing this made me think about what people usually associate most strongly with their nation, and the first idea that came to mind was 'freedom'. Because of this, I decided to examine how often the word 'freedom' appeared in each text. The results were surprising: there was a clear increase in the use of this word among the South Asian authors, while the English authors barely used it, and in some cases did not use it at all. This suggests that the idea of freedom was much more central to the writings of South Asian authors, reflecting their stronger engagement with questions of independence and political identity.
 <iframe style='width: 757px; height: 438px;' src='https://voyant-tools.org/tool/Trends/?view=Trends&stopList=keywords-91ef7e8d3b66f7fdbf704b7b05e518bc&query=mother*&query=india&query=english*&query=freedom*&mode=&corpus=d9af0425a000bf182d908f4a6ecd5b17'></iframe>
 
-Another term that initially surprised me was 'mother'. At first, I assumed it was being used in a literal sense, referring to family or personal relationships. However, after looking more closely, especially alongside the search for 'freedom', I noticed that 'mother' often appeared together with words such as 'India', 'Hail', and 'Victory'. 
+Another term that initially surprised me was 'mother'. At first, I assumed it was being used in a literal sense, referring to family or personal relationships. However, after looking more closely, especially alongside the search for 'freedom' through Voyant's Correlation Table. I noticed that 'mother' often appeared together with words such as 'India', 'Hail', and 'Victory'. 
 
-![alt text](../assets/images/MOTHER.jpg)
+<figure>
+  <img src="{{ '/assets/images/MOTHER.jpg' | relative_url }}"
+       alt="MOTHEY">
+  <figcaption>Figure 3: Correlation Chart to the word Mother</figcaption>
+</figure>
 
 This pattern suggests that 'mother' was frequently used to describe India itself, reflecting the idea of “Mother India” rather than a biological mother. This interpretation is also supported by the overall trends: South Asian authors collectively used the word 'mother' even more frequently than the word 'India', while the English authors showed the opposite pattern and used 'India' far more often than 'mother'.
 
@@ -63,12 +67,19 @@ This almost opposite pattern reveals a clear difference in how India was concept
 
 I also wanted to test out a color coded (by the text) wordcloud from RMarkdown to see if there were any other patterns I could encounter.
 
-![alt text](../assets/images/CODED.jpg)
+<figure>
+  <img src="{{ '/assets/images/CODED.jpg' | relative_url }}"
+       alt="Coded word‑cloud">
+  <figcaption>Figure 4: Colorcoded wordcloud of selected text</figcaption>
+</figure>
 
 Thanks to the color grouping of the cloud. A new set of words that stood out to me were words related to war and violence, such as war, battle, enemy, soldier, attack, kill, fight, and army. Because several of these texts take place during periods of conflict, I wanted to see how often military language appeared in each work. Using RMarkdown, I created a heatmap that shows the frequency of these words across the five texts.
 
-![alt text](../assets/images/HEATMAP.png)
-
+<figure>
+  <img src="{{ '/assets/images/HEATMAP.jpg' | relative_url }}"
+       alt="Compact word‑cloud">
+  <figcaption>Figure 5: Heatmap of War themes</figcaption>
+</figure>
 The first thing that stood out was how much more frequently these words appeared in the British texts compared to the South Asian texts. In Times of Peril had especially high counts for words such as enemy, attack, and army, making it the most focused on direct fighting and combat. The Sepoy also showed consistently high numbers across many of the war-related words, including war, battle, and soldier. Seeing this pattern suggested that war and military action were central themes in the British narratives.
 
 The South Asian texts showed a very different pattern. The Home and the World contained almost no military language at all, with only a few appearances of words like enemy or fight. This suggests that the conflict in Tagore’s novel is less about physical violence and more about political and social tension. Anandamath showed more military language than Tagore’s novel, especially with words such as kill and fight, but still far less than the British texts.
