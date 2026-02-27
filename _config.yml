@@ -35,6 +35,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+ 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -114,3 +115,20 @@ Tag_archive:
 Responses_archive:
   type: liquid
   path: /responses/
+
+collections:
+  assignments:
+    output: true     # make each item render as a standalone page
+    permalink: /assignments/:title/
+
+defaults:
+  - scope:
+      path: "_assignments"
+      type: assignments
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
