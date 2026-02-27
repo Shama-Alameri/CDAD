@@ -1,8 +1,9 @@
 ---
 title: "To See the Patterns"
+layout: single
+date: 2026-02-27
 categories:
-  - posts
-  - Blog
+  - assignments
 tags:
   - Voyant
   - RMarkdown
