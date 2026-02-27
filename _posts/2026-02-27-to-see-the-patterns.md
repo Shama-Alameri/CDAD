@@ -76,7 +76,7 @@ I also wanted to test out a color coded (by the text) wordcloud from RMarkdown t
 Thanks to the color grouping of the cloud. A new set of words that stood out to me were words related to war and violence, such as war, battle, enemy, soldier, attack, kill, fight, and army. Because several of these texts take place during periods of conflict, I wanted to see how often military language appeared in each work. Using RMarkdown, I created a heatmap that shows the frequency of these words across the five texts.
 
 <figure>
-  <img src="{{ '/assets/images/HEATMAP.jpg' | relative_url }}"
+  <img src="{{ '/assets/images/HEATMAP.png' | relative_url }}"
        alt="Compact word‑cloud">
   <figcaption>Figure 5: Heatmap of War themes</figcaption>
 </figure>
@@ -89,7 +89,8 @@ This pattern connects to what was already seen in the analysis of freedom and na
 
 <iframe style='width: 757px; height: 438px;' src='https://voyant-tools.org/tool/Bubblelines/?query=army&query=war*&query=war&query=freedom*&query=mother*&docId=7f859a22f0d843d66971a9b3203dd59f&docId=0ddf4a2827bd67d65ac94ba141363614&docId=95b1043ba90fee9c7f5b729a75ccf096&docId=b445e31a2dee4af8b90b0574d95c9578&docId=9a4ffeec107d1a278d99230e7ebbb794&corpus=7cab4bde4fed17e6a9f959e21e034311'></iframe>
 
-**{Final Thoughts:}**
+
+**{Final Thoughts}**
 
 Distant reading revealed patterns impossible to detect through traditional reading alone. Across five texts, we viewed how British authors emphasized military conflict, strategy, and imperial authority, portraying India as a stage for adventure and control, just like how a colonial would think of any land. While  South Asian authors focused on freedom, identity, and emotional symbolism, portraying India as a living, sacred entity embodied in “Mother India.”
 
