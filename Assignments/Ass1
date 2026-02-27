@@ -1,4 +1,4 @@
-title: "Welcome to Jekyll!"
+title: "To See the Patterns"
 date: 2026-02-27 12:05:00
 categories:
   - blog
@@ -6,3 +6,8 @@ tags:
   - Voyant
   - RMarkdown
 ---
+In my twenty years of living, I have never read a book that falls into the category of Post-Colonial South Asian literature. The question of how (or whether) I could ever read all of PCSA literature was humorously answered by Emily Temple in her blog “How Many Books Will You Read Before You Die?”: “You won’t.”.  For that reason, working with such a corpus presented a valuable opportunity to analyze texts I would not otherwise encounter through the method of distant reading.
+To ensure we are on the same page, distant reading can be defined, as explained by Ama Bemma Adwetewa-Badu during her discussion with Kim Adams and Saronik Bosu on the podcast High Theory, as the development of critical insight by aggregating a large body of texts rather than relying solely on close reading of a limited canon. This method enables large-scale examinations of literary history by identifying patterns, themes, and structures that may not be visible through traditional reading alone.
+In simpler terms, distant reading involves using computational tools to analyze large collections of literary works. Because reading the entirety of Post-Colonial South Asian literature would take years, and not to mention beginning comparative analysis of the text itself , this approach allows for a broader perspective within a manageable scope.
+For this project, I selected five texts from the larger corpus that illuminate how post-colonial society and colonial power relations are represented. Three of these works were written by British authors, representing the perspective of imperial power, while two were written by South Asian authors, representing those positioned as the colonized “other.” This contrast provides a framework for examining how authority, identity, and resistance are constructed across different viewpoints.
+Before applying distant reading tools such as Voyant and RMarkdown, it was necessary to conduct background research on the authors and historical contexts of these works. This broader perspective helps clarify what patterns to look for in the analysis and how each text reflects the cultural and political tensions of its time. I collected multiple links from Wikipedia and Britannica and runned it through ChatGPT to create a brief bulletpoint of each Author and their work as mentioned below:
