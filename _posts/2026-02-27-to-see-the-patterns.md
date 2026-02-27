@@ -138,3 +138,4 @@ In the end, even if distant reading is a powerful tool for acquiring knowledge o
 - [Voyant Tools](https://voyant-tools.org/)
 - [RMarkdown Documentation](https://posit.cloud.com/)
 - [NYU Abu Dhabi Library](https://search.abudhabi.library.nyu.edu/discovery/fulldisplay?context=L&vid=01NYU_AD:AD&search_scope=CI_NYUAD_NYU&tab=default_slot&docid=alma990074332960107871)
+ - [OpenAI (2026). ChatGPT] (https://chat.openai.com/) 
