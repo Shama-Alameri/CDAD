@@ -1,6 +1,5 @@
 ---
 title: "To See the Patterns"
-permalink: /assignments/
 categories:
   - posts
   - Blog
