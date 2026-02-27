@@ -1,8 +1,7 @@
 ---
 title: "To See the Patterns"
-date: 2026-02-27 12:05:00
 categories:
-  - assignments
+  - posts
   - Blog
 tags:
   - Voyant
