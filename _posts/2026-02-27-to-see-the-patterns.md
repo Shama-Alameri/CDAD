@@ -33,7 +33,7 @@ Before applying distant reading tools such as **Voyant** and **RMarkdown**, it w
 <figure>
   <img src="{{ '/assets/images/HUGE.jpg' | relative_url }}"
        alt="A Large Wordcloud of selected text">
-  <figcaption>Figure 1: A Large Wordcloud of selected text</figcaption>
+  <figcaption>**Figure 1**: Large-scale word cloud representing the selected text</figcaption>
 </figure>
 
 By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands.
@@ -43,7 +43,7 @@ I simmered down the huge word cloud into a more compact one that contains common
 <figure>
   <img src="{{ '/assets/images/COMBINE.jpg' | relative_url }}"
        alt="Compact word‑cloud">
-  <figcaption>Figure 2: Compact wordcloud</figcaption>
+  <figcaption>**Figure 2**: Compact word cloud</figcaption>
 </figure>
 
 **{Freedom}**
@@ -56,7 +56,7 @@ Another term that initially surprised me was 'mother'. At first, I assumed it wa
 <figure>
   <img src="{{ '/assets/images/MOTHER.jpg' | relative_url }}"
        alt="MOTHEY">
-  <figcaption>Figure 3: Correlation Chart to the word Mother</figcaption>
+  <figcaption>**Figure 3**: Correlation chart for the word “mother.”</figcaption>
 </figure>
 
 This pattern suggests that 'mother' was frequently used to describe India itself, reflecting the idea of “Mother India” rather than a biological mother. This interpretation is also supported by the overall trends: South Asian authors collectively used the word 'mother' even more frequently than the word 'India', while the English authors showed the opposite pattern and used 'India' far more often than 'mother'.
@@ -70,15 +70,15 @@ I also wanted to test out a color coded (by the text) wordcloud from RMarkdown t
 <figure>
   <img src="{{ '/assets/images/CODED.jpg' | relative_url }}"
        alt="Coded word‑cloud">
-  <figcaption>Figure 4: Colorcoded wordcloud of selected text</figcaption>
+  <figcaption>**Figure 4**: Color-coded word cloud of the selected text.</figcaption>
 </figure>
 
 Thanks to the color grouping of the cloud. A new set of words that stood out to me were words related to war and violence, such as war, battle, enemy, soldier, attack, kill, fight, and army. Because several of these texts take place during periods of conflict, I wanted to see how often military language appeared in each work. Using RMarkdown, I created a heatmap that shows the frequency of these words across the five texts.
 
 <figure>
-  <img src="{{ '/assets/images/HEATMAP.png' | relative_url }}"
+  <img src="{{ '/assets/images/HEATMAP.jpg' | relative_url }}"
        alt="Compact word‑cloud">
-  <figcaption>Figure 5: Heatmap of War themes</figcaption>
+  <figcaption>**Figure 5**: Heatmap of words related to War themes</figcaption>
 </figure>
 The first thing that stood out was how much more frequently these words appeared in the British texts compared to the South Asian texts. In Times of Peril had especially high counts for words such as enemy, attack, and army, making it the most focused on direct fighting and combat. The Sepoy also showed consistently high numbers across many of the war-related words, including war, battle, and soldier. Seeing this pattern suggested that war and military action were central themes in the British narratives.
 
