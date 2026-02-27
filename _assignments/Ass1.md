@@ -21,5 +21,5 @@ The Man Who Would Be King by Rudyard Kipling — Published in 1888, this short s
 Anandamath by Bankim Chandra Chatterji — First published in 1882, this landmark of Indian literature is set during the Bengal Famine of 1770 and the Sannyasi Rebellion. It popularized the image of Mother India as a goddess and includes "Vande Mataram," which later became a rallying cry for the independence movement. (COOL!)
 The Home and the World by Rabindranath Tagore — Published in 1916, this novel is set during the Swadeshi movement. Through a love triangle, Tagore explores the dangers of fanatic nationalism and the tension between Western modernity and Indian tradition.
 
-By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands.
+By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands. oo
 
