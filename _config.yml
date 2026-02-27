@@ -77,7 +77,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: "assignments"
+      path: "Assignments"
       type: posts
     values:
       layout: single
