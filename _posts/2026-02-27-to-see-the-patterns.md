@@ -29,9 +29,17 @@ Before applying distant reading tools such as **Voyant** and **RMarkdown**, it w
 - **Anandamath by Bankim Chandra Chatterji**.  First published in 1882, this landmark of Indian literature is set during the Bengal Famine of 1770 and the Sannyasi Rebellion. It popularized the image of Mother India as a goddess and includes "Vande Mataram," which later became a rallying cry for the independence movement. (COOL!)
 
 - **The Home and the World by Rabindranath Tagore**.  Published in 1916, this novel is set during the Swadeshi movement. Through a love triangle, Tagore explores the dangers of fanatic nationalism and the tension between Western modernity and Indian tradition.
-<figure>
-  <img src="/assets/images/HUGE.jpg" alt="A mountain vista">
-  <figcaption>Figure 1: Large Wordcloud of the selected text</figcaption>
-</figure>
-By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands. oo
 
+{% figure
+   src="/assets/images/HUGE.jpg"
+   caption="Figure 1: A Large Wordcloud of selected text"
+%}
+
+By having this bird-eye view it helps set up what type of analysis we look for while using tools such as Voyant and RMarkdown in order to see proper visualizations of our distant readings. Through RM, it helped me create a huge word cloud filled with all common words for all the books to see what I have in my hands.
+
+I simmered down the huge word cloud into a more compact one that contains common terms throughout all the texts to help ease the analysis for me.
+
+{% figure
+   src="/assets/images/COMBINE.jpg"
+   caption="Figure 1: Compact form of Previous Wordcloud"
+%}
