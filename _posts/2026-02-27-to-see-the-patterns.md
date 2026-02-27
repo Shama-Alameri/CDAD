@@ -106,8 +106,7 @@ In the end, even if distant reading is a powerful tool for acquiring knowledge o
 
 ### Distant Reading & Literary Theory
 
-- Underwood. *Distant Horizon*.
-- [Distant Reading](https://newbooksnetwork.com/distant-reading) - New Books Network
+- Underwood. *Distant Horizon*. [Distant Reading](https://newbooksnetwork.com/distant-reading) - New Books Network
 - [How Many Books Will You Read Before You Die?](https://lithub.com/how-many-books-will-you-read-before-you-die/) - Emily Temple, LitHub
 
 ### Authors & Works
@@ -115,7 +114,7 @@ In the end, even if distant reading is a powerful tool for acquiring knowledge o
 **Rudyard Kipling**
 - [Wikipedia: Rudyard Kipling](https://en.wikipedia.org/wiki/Rudyard_Kipling)
 - [Wikipedia: The Man Who Would Be King](https://en.wikipedia.org/wiki/The_Man_Who_Would_Be_King)
-- [Britannica: The Man Who Would Be King](https://www.britannica.com/)
+- [Britannica: The Man Who Would Be King](https://www.britannica.com/topic/The-Man-Who-Would-Be-King-short-story-by-Kipling/)
 
 **G. A. Henty**
 - [Wikipedia: G. A. Henty](https://en.wikipedia.org/wiki/G._A._Henty)
@@ -126,16 +125,16 @@ In the end, even if distant reading is a powerful tool for acquiring knowledge o
 
 **Rabindranath Tagore**
 - [Wikipedia: Rabindranath Tagore](https://en.wikipedia.org/wiki/Rabindranath_Tagore)
-- [Britannica: Rabindranath Tagore](https://www.britannica.com/)
+- [Britannica: Rabindranath Tagore](https://www.britannica.com/biography/Rabindranath-Tagore/)
 - [Wikipedia: The Home and the World](https://en.wikipedia.org/wiki/The_Home_and_the_World)
 
 **Bankim Chandra Chatterjee**
 - [Wikipedia: Bankim Chandra Chatterjee](https://en.wikipedia.org/wiki/Bankim_Chandra_Chatterjee)
-- [Britannica: Bankim Chandra Chatterjee](https://www.britannica.com/)
+- [Britannica: Bankim Chandra Chatterjee](https://www.britannica.com/biography/Bankim-Chandra-Chatterjee/)
 - [Wikipedia: Anandamath](https://en.wikipedia.org/wiki/Anandamath)
 
 ### Tools & Resources
 
 - [Voyant Tools](https://voyant-tools.org/)
-- [RMarkdown Documentation](https://rmarkdown.rstudio.com/)
+- [RMarkdown Documentation](https://posit.cloud.com/)
 - [NYU Abu Dhabi Library](https://search.abudhabi.library.nyu.edu/discovery/fulldisplay?context=L&vid=01NYU_AD:AD&search_scope=CI_NYUAD_NYU&tab=default_slot&docid=alma990074332960107871)
