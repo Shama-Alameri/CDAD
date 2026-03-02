@@ -51,12 +51,12 @@ I simmered down the huge word cloud into a more compact one that contains common
 The first set of words that caught my attention were words directly related to the nation itself, such as 'India', 'British', and 'English'. The prominence of these words suggested that the idea of the nation was central across the texts. Seeing this made me think about what people usually associate most strongly with their nation, and the first idea that came to mind was 'freedom'. Because of this, I decided to examine how often the word 'freedom' appeared in each text. The results were surprising: there was a clear increase in the use of this word among the South Asian authors, while the English authors barely used it, and in some cases did not use it at all. This suggests that the idea of freedom was much more central to the writings of South Asian authors, reflecting their stronger engagement with questions of independence and political identity.
 <iframe style='width: 757px; height: 438px;' src='https://voyant-tools.org/tool/Trends/?view=Trends&stopList=keywords-91ef7e8d3b66f7fdbf704b7b05e518bc&query=mother*&query=india&query=english*&query=freedom*&mode=&corpus=d9af0425a000bf182d908f4a6ecd5b17'></iframe>
 
-Another term that initially surprised me was 'mother'. At first, I assumed it was being used in a literal sense, referring to family or personal relationships. However, after looking more closely, especially alongside the search for 'freedom' through Voyant's Correlation Table. I noticed that 'mother' often appeared together with words such as 'India', 'Hail', and 'Victory'. 
+Another term that initially surprised me was 'mother'. At first, I assumed it was being used in a literal sense, referring to family or personal relationships. However, after looking more closely, especially alongside the search for 'freedom' through Voyant's Collocation Table. I noticed that 'mother' often appeared together with words such as 'India', 'Hail', and 'Victory'. 
 
 <figure>
   <img src="{{ '/assets/images/MOTHER.jpg' | relative_url }}"
        alt="MOTHEY">
-  <figcaption>Figure 3: Correlation chart for the word “mother.”</figcaption>
+  <figcaption>Figure 3: Collocation chart for the word “mother.”</figcaption>
 </figure>
 
 This pattern suggests that 'mother' was frequently used to describe India itself, reflecting the idea of “Mother India” rather than a biological mother. This interpretation is also supported by the overall trends: South Asian authors collectively used the word 'mother' even more frequently than the word 'India', while the English authors showed the opposite pattern and used 'India' far more often than 'mother'.
@@ -138,4 +138,4 @@ In the end, even if distant reading is a powerful tool for acquiring knowledge o
 - [Voyant Tools](https://voyant-tools.org/)
 - [RMarkdown Documentation](https://posit.cloud.com/)
 - [NYU Abu Dhabi Library](https://search.abudhabi.library.nyu.edu/discovery/fulldisplay?context=L&vid=01NYU_AD:AD&search_scope=CI_NYUAD_NYU&tab=default_slot&docid=alma990074332960107871)
- - [OpenAI (2026). ChatGPT] (https://chat.openai.com/) 
+- [OpenAI (2026). ChatGPT](https://chat.openai.com/) 
