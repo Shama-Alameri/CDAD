@@ -1,5 +1,5 @@
 ---
-title: "To See the Patterns"
+title: "A1: To See the Patterns"
 layout: single
 date: 2026-02-27
 categories:
@@ -8,6 +8,7 @@ categories:
 tags:
   - Voyant
   - RMarkdown
+  - Assignment
 ---
 In my twenty years of living, I have never read a book that falls into the category of Post-Colonial South Asian literature. The question of how (or whether) I could ever read all of PCSA literature was humorously answered by Emily Temple in her blog “How Many Books Will You Read Before You Die?”: “You won’t.”.  For that reason, working with such a corpus presented a valuable opportunity to analyze texts I would not otherwise encounter through the method of distant reading.
 
