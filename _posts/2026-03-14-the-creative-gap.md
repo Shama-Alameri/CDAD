@@ -44,8 +44,8 @@ What this experiment ultimately revealed is a crucial difference hiding beneath 
 ## References
 
 - Underwood. *Distant Horizon*. [Distant Reading](https://newbooksnetwork.com/distant-reading) - New Books Network
-- [Prompt and Answer for Figure 1, Gemini](https://gist.github.com/Shama-Alameri/d3f319031f1d01416808a6b068ad3546.js)
-- [Prompt and Answer for Figure 2, Gemini](https://gist.github.com/Shama-Alameri/939f96ef2355b884d9c20ea75ae5db7b.js)
+- [Prompt and Answer for Figure 1, Gemini](https://gist.github.com/Shama-Alameri/d3f319031f1d01416808a6b068ad3546)
+- [Prompt and Answer for Figure 2, Gemini](https://gist.github.com/Shama-Alameri/939f96ef2355b884d9c20ea75ae5db7b)
 
 ### Tools & Resources
 
