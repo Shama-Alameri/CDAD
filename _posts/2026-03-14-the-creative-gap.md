@@ -39,5 +39,13 @@ Gemini's response was immediate and confident. Without hesitation, it anchored i
 Interestingly, Gemini also picked up on the quieter, more domestic words like **house**, **hand**, and **mother**, and rather than treating them as contradictions to its military theory, it wove them in as emotional subtext, framing them as evidence of "human impact amidst conflict." This mirrors something we often do ourselves: when we have already decided on a narrative, we tend to absorb contradicting details into it rather than letting them challenge the whole picture.
 
 What this experiment ultimately revealed is a crucial difference hiding beneath the surface similarity. Yes, Gemini produced theories, made connections, and even read silences as meaningful, but it never once hesitated. There was no moment of genuine uncertainty, no scrapped interpretation, no visual thrown away because it did not fit. I had plenty of those. Literary scholar Ted Underwood warns against exactly what I was witnessing, cautioning that the belief that delegating observation to a machine somehow increases "the objectivity of results" is a fantasy rather than a reality (Page 157). Gemini's confidence was not objectivity at all. It was pattern-matching dressed as insight, a performance of certainty that had no need for the doubt that shaped my own process. And maybe that is the real distinction: humans create meaning through doubt, through dead ends, and through the uncomfortable feeling of not knowing. Gemini simply skips that part, and in doing so, produces something that looks like insight, but perhaps lacks the struggle that makes insight meaningful.
-
 :)
+## References
+
+- Underwood. *Distant Horizon*. [Distant Reading](https://newbooksnetwork.com/distant-reading) - New Books Network
+
+### Tools & Resources
+
+- [Voyant Tools](https://voyant-tools.org/)
+- [RMarkdown Documentation](https://posit.cloud.com/)
+- [Gemini (2026). Gemini AI](https://gemini.google.com/)
