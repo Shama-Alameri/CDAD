@@ -89,7 +89,7 @@ At **100 MFW**, the tree is almost suspiciously clean:
 - *The Salvaging of Civilization* falls off the bottom, exiled on its own branch.
 
 <figure>
-  <img src="{{ '/assets/images/stylo-ca-100mfw.png' | relative_url }}"
+  <img src="{{ '/assets/images/stylo-ca-100mfw.jpg' | relative_url }}"
        alt="Stylo CA at 100 MFW">
   <figcaption>Figure 1: Stylo CA at 100 MFW</figcaption>
 </figure>
@@ -97,7 +97,7 @@ At **100 MFW**, the tree is almost suspiciously clean:
 Push the MFW count up, though, and things loosen. At **300** and especially **500 MFW**, Brackett's *The Blue Behemoth* drifts off to sit next to Kuttner's *The Ego Machine*, which itself keeps creeping towards Zimmer Bradley's novels, as if Kuttner were quietly trying to colonise half the tree. Dick and Norton, by contrast, held their internal shape perfectly, each cluster stayed as tightly packed as it was at 100 MFW, but the two clusters swapped positions in the tree. Norton migrated up to where Dick had been, and Dick slid down to where Norton had been. They did not break, they just traded seats.
 
 <figure>
-  <img src="{{ '/assets/images/stylo-ca-500mfw.png' | relative_url }}"
+  <img src="{{ '/assets/images/stylo-ca-500mfw.jpg' | relative_url }}"
        alt="Stylo CA at 500 MFW">
   <figcaption>Figure 2: Stylo CA at 500 MFW</figcaption>
 </figure>
@@ -105,7 +105,7 @@ Push the MFW count up, though, and things loosen. At **300** and especially **50
 The BCT (below) smooths those shifts into one radial picture. Dick and Norton still read as stable islands, Brackett and Kuttner share a neighbourhood rather than occupying separate ones, Wells's novels drift towards *The Black Kiss*, and *The Salvaging of Civilization*, bafflingly, ends up near Norton.
 
 <figure>
-  <img src="{{ '/assets/images/stylo-bct-delta.png' | relative_url }}"
+  <img src="{{ '/assets/images/stylo-bct-delta.jpg' | relative_url }}"
        alt="Stylo BCT, 100 to 500 MFW">
   <figcaption>Figure 3: Stylo BCT, 100 to 500 MFW</figcaption>
 </figure>
@@ -134,7 +134,6 @@ By the end of the Stylo pass, we have a reasonable map of **who writes like whom
 - [Marion Zimmer Bradley (Wikipedia)](https://en.wikipedia.org/wiki/Marion_Zimmer_Bradley)
 - [Henry Kuttner (Wikipedia)](https://en.wikipedia.org/wiki/Henry_Kuttner)
 - [Planet Stories (Wikipedia)](https://en.wikipedia.org/wiki/Planet_Stories)
-
 
 
 
