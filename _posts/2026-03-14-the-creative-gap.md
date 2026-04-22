@@ -3,6 +3,7 @@ title: "R1: The Creative Gap"
 layout: single
 date: 2026-03-14
 categories:
+  - posts
   - responses
 tags:
   - Voyant

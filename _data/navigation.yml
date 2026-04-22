@@ -5,10 +5,6 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Assignments"
-    url: /assignments/
-  - title: "Responses"
-    url: /responses/
   - title: "About"
     url: /about/
     
