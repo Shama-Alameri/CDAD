@@ -126,4 +126,4 @@ Tag_archive:
 collections:
   assignments:
     output: true     # make each item render as a standalone page
-    permalink: /assignments/:title/
+    permalink: /_assignments/:title/
