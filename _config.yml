@@ -36,6 +36,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
   - _assignments
+  - _responses
  
 
 # Exclude from processing.
@@ -104,6 +105,7 @@ defaults:
       read_time: true
       comments: true
       share: true
+      related: true
   - scope:
       path: "_assignments"
       type: assignments
