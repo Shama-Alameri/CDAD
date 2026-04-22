@@ -97,7 +97,7 @@ defaults:
       author_profile: true
   - scope:
       path: "_responses"
-      type: posts
+      type: responses
     values:
       layout: single
       author_profile: true
@@ -106,7 +106,7 @@ defaults:
       share: true
   - scope:
       path: "_assignments"
-      type: posts
+      type: assignments
     values:
       layout: single
       author_profile: true
