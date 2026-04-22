@@ -1,7 +1,7 @@
 ---
 title: "A2: Two Tools, One Corpus"
 authors: "Shama & Mhara"
-layout: post
+layout: single
 date: 2026-04-22
 
 categories:
