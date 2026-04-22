@@ -122,8 +122,10 @@ Category_archive:
 Tag_archive:
   type: liquid
   path: /tags/
+Assignments_archive:
+  type: liquid
+  path: /assignments/
+responses_archive:
+  type: liquid
+  path: /responses/
 
-collections:
-  assignments:
-    output: true     # make each item render as a standalone page
-    permalink: /_assignments/:title/
