@@ -13,7 +13,7 @@ tags:
   - Assignment 
 
 ---
-****IN Progress****
+work in progress
 ## Introduction
 
 Our assignment was essentially a question dressed up as a project: if you hand the same pile of books to two different computational tools, do they see the same library, or two different ones? The pile in question is a small but surprisingly varied corpus of 18 science fiction and speculative fiction texts pulled from Project Gutenberg, and the two tools are a matched pair of opposites.
