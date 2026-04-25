@@ -124,21 +124,49 @@ By the end of the Stylo pass, we have a reasonable map of **who writes like whom
 
 ## Tool 2: TF-IDF
 
-TF-IDF looks at the texts in a very different way from Stylo. Instead of counting small common words, it focuses on the words that stand out in each text. This means it cares more about what the books are about. When we looked at the TF-IDF PCA plots at 100, 500, and 2000 MFW, the whole shape of the corpus changed.
+### What it does
+
+TF-IDF looks at the texts in a very different way from Stylo. Instead of counting small common words, it focuses on the words that stand out in each text. This means it cares more about what the books are about. We projected the TF-IDF matrix into two dimensions with PCA at 100, 500, and 2000 MFW so we could watch the shape of the corpus change as the vocabulary pool grew.
+
+### The Results
 
 At 100 MFW, the groups were loose but still clear. Wells sat far away from everyone else, Dick formed a small tight group, and Brackett and Kuttner overlapped because they use a lot of the same adventure words. Zimmer Bradley moved around a bit, mostly because *Jackie Sees a Star* is very short.
 
-<!-- CODE FOR IMAGE: TF-IDF PCA at 100 MFW -->
+<figure>
+  <img src="{{ '/assets/images/MFW100.jpg' | relative_url }}"
+       alt="Stylo BCT, 100 to 500 MFW">
+  <figcaption>Figure 4: TF-IDF, MFW: 100 </figcaption>
+</figure>
 
 At 500 MFW, the picture became sharper. Dick stayed close together, Brackett and Zimmer Bradley moved toward each other, and Kuttner's *The Ego Machine* shifted toward Dick, which suggests it uses more technical words. Norton stayed steady but moved a little toward Wells because they share some general words about society and the future.
 
-<!-- CODE FOR IMAGE: TF-IDF PCA at 500 MFW -->
+<figure>
+  <img src="{{ '/assets/images/MFW500.jpg' | relative_url }}"
+       alt="Stylo BCT, 100 to 500 MFW">
+  <figcaption>Figure 5: TF-IDF, MFW: 500 </figcaption>
+</figure>
 
 At 2000 MFW, the content patterns became very strong. Brackett, Zimmer Bradley, Norton, and part of Kuttner formed one big group that looks like a shared genre space. Dick stayed in his own small group, and Wells stayed far away from everyone.
 
-<!-- CODE FOR IMAGE: TF-IDF PCA at 2000 MFW -->
+<figure>
+  <img src="{{ '/assets/images/MFW2000.jpg' | relative_url }}"
+       alt="Stylo BCT, 100 to 500 MFW">
+  <figcaption>Figure 6: TF-IDF, MFW: 2000 </figcaption>
+</figure>
 
 TF-IDF ended up showing a map based on topics and themes instead of writing style.
+
+### Analysis
+
+Three things stood out when we looked at the three plots together.
+
+**1. TF-IDF finds the same outliers as Stylo, but for different reasons.** *Jackie Sees a Star* and *The Salvaging of Civilization* sit in the far corners of every PCA plot we made, no matter the MFW setting. Stylo pushed them out because of length and genre. TF-IDF pushes them out because of vocabulary, which is a different reason. When both tools agree that a text does not belong, that is a stronger result than either tool on its own.
+
+**2. The Wells fiction novels are the one place both tools agree in a positive way.** *The Island of Doctor Moreau* and *The War of the Worlds* sit together on the right side in every plot. Stylo grouped them based on small word patterns. TF-IDF groups them based on the older Victorian science vocabulary they share. When two very different tools agree on a real cluster, not just an outlier, it is probably a strong finding.
+
+**3. *The Ego Machine* is the clearest example of why we used both tools.** Stylo placed Kuttner's *The Ego Machine* near Zimmer Bradley. TF-IDF places it far on the left, alone, in every plot. The story is about a thinking machine, so it uses words like machine, ego, intelligence, and robot that no other text in the corpus uses much. Stylo cannot pick that up, because small function words are similar across topics. TF-IDF can. This is the best example of the two tools doing different jobs on the same text.
+
+One final note, the "shared genre group" of Brackett, Bradley, Norton, and Kuttner is a loose pulp adventure cluster of non-outliers. Because the corpus is so uniform, TF-IDF shows a lack of differentiation rather than unique topics.
 
 ## BP2: Synthesize
 
@@ -167,8 +195,4 @@ Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evide
 - [Marion Zimmer Bradley (Wikipedia)](https://en.wikipedia.org/wiki/Marion_Zimmer_Bradley)
 - [Henry Kuttner (Wikipedia)](https://en.wikipedia.org/wiki/Henry_Kuttner)
 - [Planet Stories (Wikipedia)](https://en.wikipedia.org/wiki/Planet_Stories)
-
-
-
-
 
