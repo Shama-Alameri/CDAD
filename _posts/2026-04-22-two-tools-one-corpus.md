@@ -122,11 +122,44 @@ Three things jumped out.
 
 By the end of the Stylo pass, we have a reasonable map of **who writes like whom**. The follow up question, which we take to TF-IDF next, is whether that map of *style* has anything at all to do with a map of *content*. The suspicion, going in, is that it will not.
 
-*(BP2, Tool 2, BP3 to follow.)*
+## Tool 2: TF-IDF
 
-##  Refrences
+TF-IDF looks at the texts in a very different way from Stylo. Instead of counting small common words, it focuses on the words that stand out in each text. This means it cares more about what the books are about. When we looked at the TF-IDF PCA plots at 100, 500, and 2000 MFW, the whole shape of the corpus changed.
 
-- Underwood. *Distant Horizon*. [Distant Reading](https://newbooksnetwork.com/distant-reading) - New Books Network
+At 100 MFW, the groups were loose but still clear. Wells sat far away from everyone else, Dick formed a small tight group, and Brackett and Kuttner overlapped because they use a lot of the same adventure words. Zimmer Bradley moved around a bit, mostly because *Jackie Sees a Star* is very short.
+
+<!-- CODE FOR IMAGE: TF-IDF PCA at 100 MFW -->
+
+At 500 MFW, the picture became sharper. Dick stayed close together, Brackett and Zimmer Bradley moved toward each other, and Kuttner's *The Ego Machine* shifted toward Dick, which suggests it uses more technical words. Norton stayed steady but moved a little toward Wells because they share some general words about society and the future.
+
+<!-- CODE FOR IMAGE: TF-IDF PCA at 500 MFW -->
+
+At 2000 MFW, the content patterns became very strong. Brackett, Zimmer Bradley, Norton, and part of Kuttner formed one big group that looks like a shared genre space. Dick stayed in his own small group, and Wells stayed far away from everyone.
+
+<!-- CODE FOR IMAGE: TF-IDF PCA at 2000 MFW -->
+
+TF-IDF ended up showing a map based on topics and themes instead of writing style.
+
+## BP2: Synthesize
+
+Putting the Stylo and TF-IDF results together shows that the two tools are not looking at the same thing. Stylo builds a picture based on writing habits, while TF-IDF builds a picture based on topics. Because of this, the two maps look very different. Stylo shows Dick and Norton as very steady writers, Brackett and Kuttner as a blended pair, and Wells as someone who sits on the edge. TF-IDF shows something else. It groups Brackett, Zimmer Bradley, Norton, and part of Kuttner together because they all write similar adventure stories. It keeps Dick in his own space because his stories use a lot of Cold War and technology words. It pushes Wells far away because his language comes from a different time.
+
+The most interesting part is that both tools mix Brackett and Kuttner, but for different reasons. Stylo mixes them because they write with similar patterns. TF-IDF mixes them because they use similar story words. This shows how much their shared magazine world shaped both their style and their content.
+
+The tools disagree the most on Zimmer Bradley and Wells. Stylo treats Zimmer Bradley as unstable because of text length, while TF-IDF places her with Brackett. Stylo keeps Wells near the fiction cluster, while TF-IDF pushes him far out. These differences support Ted Underwood's idea that models do not simply read texts. They create new ways of seeing them.
+
+## BP3: Conclusion
+
+This project showed us that Stylo and TF-IDF do not read the corpus in the same way, and this helped us understand the class readings more clearly. Stylo focused on small writing habits, while TF-IDF focused on topic words, so each tool created a different picture of the same books. This matched Ted Underwood's idea that distant reading tools do not simply reveal what is already in the text. They shape what we see by choosing what to count (Underwood 145). Our results proved this. Stylo made the corpus look like a set of writing styles, while TF-IDF made it look like a set of themes. The tools agreed on some things, like Dick and Norton being steady writers, but they disagreed on others, like Zimmer Bradley and Wells. This showed how much the method changes the outcome. Adam Crymble makes a similar point in "Building the Invisible College," where he highlights Ewa Swenson's argument that the real skill is not running a tool but knowing "how to recognize problems, identify and characterize them, understand their nature. And then to determine which tool may be appropriate for the problem" (Crymble 119). Comparing Stylo and TF-IDF side by side on the same corpus was a small version of exactly that. The project also supported the class idea that distant reading is not about finding one correct answer. It is about learning how each method highlights some parts of the text and hides others. In the end, the assignment helped us understand that every tool gives one angle on the corpus, and that we need to compare these angles to see the bigger picture.
+
+## Works Cited
+
+Crymble, Adam. "Building the Invisible College." *Technology and the Historian: Transformations in the Digital Age*, University of Illinois Press, 2021, pp. 107-136.
+
+Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evidence and Literary Change*, University of Chicago Press, 2019, pp. 144-174.
+
+## Sources for corpus info
+
 - [Leigh Brackett (Wikipedia)](https://en.wikipedia.org/wiki/Leigh_Brackett)
 - [Philip K. Dick (Wikipedia)](https://en.wikipedia.org/wiki/Philip_K._Dick)
 - [Andre Norton (Wikipedia)](https://en.wikipedia.org/wiki/Andre_Norton)
@@ -134,6 +167,7 @@ By the end of the Stylo pass, we have a reasonable map of **who writes like whom
 - [Marion Zimmer Bradley (Wikipedia)](https://en.wikipedia.org/wiki/Marion_Zimmer_Bradley)
 - [Henry Kuttner (Wikipedia)](https://en.wikipedia.org/wiki/Henry_Kuttner)
 - [Planet Stories (Wikipedia)](https://en.wikipedia.org/wiki/Planet_Stories)
+
 
 
 
