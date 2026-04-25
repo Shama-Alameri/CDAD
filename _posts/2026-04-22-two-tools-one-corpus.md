@@ -14,7 +14,6 @@ tags:
 
 ---
 work in progress
-## Introduction
 
 Our assignment was essentially a question dressed up as a project: if you hand the same pile of books to two different computational tools, do they see the same library, or two different ones? The pile in question is a small but surprisingly varied corpus of 18 science fiction and speculative fiction texts pulled from Project Gutenberg, and the two tools are a matched pair of opposites.
 
@@ -112,13 +111,13 @@ The BCT (below) smooths those shifts into one radial picture. Dick and Norton st
 
 ### Analysis
 
-Three things jumped out.
+Three things stood out.
 
-**1. Stylo mostly delivers what the textbook promises.** Dick, Norton, and the Wells fiction novels clustered neatly by author, with the cleanest signal at low MFW counts, which is exactly where function words dominate. The unconscious rhythms of *the* and *and* really are a better fingerprint than topic vocabulary. The genuinely interesting thing about the Dick and Norton seat swap is what did *not* happen around it: the two clusters flipped positions in the tree, but internally they held their shape perfectly from 100 MFW through 500 MFW, even as the vocabulary pool around them quintupled. That resilience is arguably a bigger finding than the tidiness at 100 MFW alone, because it shows the author level signal for these two writers is not a fluke of parameter choice. It survives being drowned in extra words.
+**1. Stylo mostly does what the textbook promises:** Dick, Norton, and the Wells fiction novels clustered neatly by author, with the cleanest signal at low MFW where function words dominate. The small rhythms of *the* and *and* really are a better fingerprint than topic vocabulary. Dick and Norton also flipped positions in the tree as MFW grew but kept their internal shape from 100 through 500 MFW, which means their author signal is not a fluke of parameter choice.
 
-**2. The method is not magic.** Length and genre smuggle themselves into the results. *Jackie Sees a Star* is too short for reliable frequency counts, so it drifts wherever the noise pushes it. *The Salvaging of Civilization* is non fiction, so it refuses to cluster with pulp narratives under any parameters we tried. Neither case is Stylo failing. Both are the tool honestly reporting that a dendrogram is not reading books, it is counting *the*s and *and*s.
+**2. The method is not magic:** Length and genre leak into the results. *Jackie Sees a Star* is too short for reliable frequency counts, so it drifts with the noise. *The Salvaging of Civilization* is non fiction, so it refuses to cluster with pulp narratives. Neither is Stylo failing. Both are the tool reporting that a dendrogram is not reading books, it is counting *the*s and *and*s.
 
-**3. The Brackett and Kuttner blur is the most interesting finding.** Both ran their careers through the same pulp magazine era, Brackett centred on *Planet Stories* and Kuttner publishing from 1936 through 1958 out of *Weird Tales*. Both even share a Ray Bradbury connection: Brackett as the other writer most identified with *Planet Stories*, and Kuttner as a writer Bradbury personally championed as a "neglected master." If Stylo were a flawless authorship detector, it would prise them apart. The fact that it cannot is probably the more honest answer: a shared commercial tradition and a shared audience can genuinely produce a shared stylistic footprint, which is a claim we could not have made from reading alone.
+**3. The Brackett and Kuttner blur is the most interesting finding:** Both wrote for the same pulp magazines in overlapping decades, Brackett mostly in *Planet Stories* and Kuttner in *Weird Tales*, and both share a Bradbury connection. If Stylo were a perfect authorship detector, it would split them. The fact that it cannot is the better answer: a shared commercial tradition can produce a shared stylistic footprint, which is something we could not have claimed from reading alone.
 
 By the end of the Stylo pass, we have a reasonable map of **who writes like whom**. The follow up question, which we take to TF-IDF next, is whether that map of *style* has anything at all to do with a map of *content*. The suspicion, going in, is that it will not.
 
@@ -158,15 +157,12 @@ TF-IDF ended up showing a map based on topics and themes instead of writing styl
 
 ### Analysis
 
-Three things stood out when we looked at the three plots together.
+Two things stood out when we looked at the three plots together as before.
 
-**1. TF-IDF finds the same outliers as Stylo, but for different reasons.** *Jackie Sees a Star* and *The Salvaging of Civilization* sit in the far corners of every PCA plot we made, no matter the MFW setting. Stylo pushed them out because of length and genre. TF-IDF pushes them out because of vocabulary, which is a different reason. When both tools agree that a text does not belong, that is a stronger result than either tool on its own.
+**1. TF-IDF finds the same outliers as Stylo, but for different reasons:** *Jackie Sees a Star* and *The Salvaging of Civilization* sit in the far corners of every plot we made, no matter the MFW setting. Stylo pushed them out because of length and genre. TF-IDF pushes them out because of vocabulary, which is a different reason. When both tools agree that a text does not belong, that is a stronger result than either tool on its own.
 
-**2. The Wells fiction novels are the one place both tools agree in a positive way.** *The Island of Doctor Moreau* and *The War of the Worlds* sit together on the right side in every plot. Stylo grouped them based on small word patterns. TF-IDF groups them based on the older Victorian science vocabulary they share. When two very different tools agree on a real cluster, not just an outlier, it is probably a strong finding.
+**2. The Wells fiction novels are the one place both tools agree in a positive way:** *The Island of Doctor Moreau* and *The War of the Worlds* sit together on the right side in every plot. Stylo grouped them based on small word patterns. TF-IDF groups them based on the probable older science vocabulary they share. When two very different tools agree on a real cluster, not just an outlier, it is probably a strong finding.
 
-**3. *The Ego Machine* is the clearest example of why we used both tools.** Stylo placed Kuttner's *The Ego Machine* near Zimmer Bradley. TF-IDF places it far on the left, alone, in every plot. The story is about a thinking machine, so it uses words like machine, ego, intelligence, and robot that no other text in the corpus uses much. Stylo cannot pick that up, because small function words are similar across topics. TF-IDF can. This is the best example of the two tools doing different jobs on the same text.
-
-One final note, the "shared genre group" of Brackett, Bradley, Norton, and Kuttner is a loose pulp adventure cluster of non-outliers. Because the corpus is so uniform, TF-IDF shows a lack of differentiation rather than unique topics.
 
 ## BP2: Synthesize
 
@@ -182,9 +178,9 @@ This project showed us that Stylo and TF-IDF do not read the corpus in the same 
 
 ## Works Cited
 
-Crymble, Adam. "Building the Invisible College." *Technology and the Historian: Transformations in the Digital Age*, University of Illinois Press, 2021, pp. 107-136.
+Crymble, Adam. "Building the Invisible College." *Technology and the Historian: Transformations in the Digital Age*, 2021, pp. 107-136.
 
-Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evidence and Literary Change*, University of Chicago Press, 2019, pp. 144-174.
+Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evidence and Literary Change*, 2019, pp. 144-174.
 
 ## Sources for corpus info
 
@@ -196,3 +192,7 @@ Underwood, Ted. "The Risks of Distant Reading." *Distant Horizons: Digital Evide
 - [Henry Kuttner (Wikipedia)](https://en.wikipedia.org/wiki/Henry_Kuttner)
 - [Planet Stories (Wikipedia)](https://en.wikipedia.org/wiki/Planet_Stories)
 
+## Tools used
+- [CLaude, April 2026](https://claude.ai/)
+- **Stylo** 
+- **TF-IDF** 
