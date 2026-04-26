@@ -2,7 +2,7 @@
 title: "A2: Two Tools, One Corpus"
 authors: "Shama & Mhara"
 layout: single
-date: 2026-04-22
+date: 2026-04-24
 
 categories:
   - posts
@@ -18,7 +18,7 @@ Our assignment was essentially a question dressed up as a project: if you hand t
 - **Stylo** (an R package) leans on the most frequent words in a text, the quiet scaffolding of *the*, *and*, *of*, *was*, and uses the rates at which writers use those words to work out who wrote what.
 - **TF-IDF** works on the same word pool but reweights it, downweighting words that appear across many texts and spotlighting whatever vocabulary is *peculiar* to each one.
 
-The cliche is that Stylo catches authorship and TF-IDF catches topic. We wanted to see whether that holds up on a corpus of pulp space opera, Martian princesses, and, for some reason, a non fiction essay collection by H.G. Wells. Hanging over all of it is Ted Underwood's warning in "The Risks of Distant Reading" that a model is not a tool you plug in, it is "a new way of representing and interpreting the world." If he is right, Stylo and TF-IDF should disagree in ways that matter.
+The cliche is that Stylo catches authorship and TF-IDF catches topic. We wanted to see whether that holds up on a corpus of pulp space opera, Martian princesses, and, for some reason, a non fiction essay collection by H.G. Wells. Hanging over all of it is Ted Underwood's warning in "The Risks of Distant Reading" that a model is not a tool you plug in, it is "a new way of representing and interpreting the world" (Underwood 145). If he is right, Stylo and TF-IDF should disagree in ways that matter.
 
 ## A quick note on the corpus
 
