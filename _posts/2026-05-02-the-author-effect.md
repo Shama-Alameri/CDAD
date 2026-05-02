@@ -1,7 +1,7 @@
 ---
 title: "R2: The Author Effect"
 layout: single
-date: 2026-03-14
+date: 2026-05-02
 categories:
   - posts
   - responses
